@@ -1,0 +1,40 @@
+body {
+    width: 389.6px;
+    height: 478.4px;
+    background-color: white;
+
+}
+.option{
+    padding: 20px;
+}
+img{
+    width: 135px;
+    height: 65px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#filter{
+    height: 25px;
+    width: 25px;
+    padding: 20px;
+    
+}
+/* #filter:hover{
+} */
+#logo1{
+    height: 50px;
+    width: 150px;
+}
+.heading{
+    font-weight:bolder;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.subHeading{
+    color: #6c6e79;
+    font-size: 15px;
+
+}

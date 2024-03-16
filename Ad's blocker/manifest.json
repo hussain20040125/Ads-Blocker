@@ -1,0 +1,17 @@
+{
+    "name": "NoAdsZone", 
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Blocks ads on any website", 
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "./logo/mainLogo.PNG"
+    },
+    "background": {
+        "scripts": ["blockedsites.js", "script.js"]
+    },
+    "icons": {
+        "128"   : "./logo/mainLogo.PNG"
+    },
+    "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"]
+}
